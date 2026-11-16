@@ -1,5 +1,5 @@
 // 直接把你的 99 帧 json 数据内嵌在这里
-import data from ".frames.js";
+import data from "./frames.js";
 
 export default {
   async fetch(request) {

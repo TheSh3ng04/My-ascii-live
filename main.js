@@ -1,4 +1,4 @@
-import data from "./ascii_frames.json" with { type: "json" };
+import data from "frames.js" with { type: "json" };
 
 const { fps = 10, frames } = data;
 const interval = 1000 / fps;
